@@ -28,7 +28,7 @@ def preprocess_text(text):
     # Tokenization
     words = word_tokenize(text.lower())
 
-    # Remove stopwords and punctuation
+    # Supprime les stopwords et la ponctuation
     words = [ps.stem(word) for word in words if word.isalpha() and word not in stop_words and word not in string.punctuation]
 
     return words

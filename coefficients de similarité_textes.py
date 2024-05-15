@@ -14,7 +14,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 def load_text_database(directory_path):
-    # Implement loading texts from your database
+    # fonction de chargement des textes de la base
     pass
 
 text_database = load_text_database('/emplacement de la base de donnees textuelles')

@@ -127,7 +127,7 @@ for query,name in query_images :
             relevent_images[name].append((img,im))
 
 """
-# converting to gray scale
+# conversion en echelle de gris
 gray_query = []
 for img, name in query_images :
     im = pim.open('nom_repertoire/'+name).convert('LA')
